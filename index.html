@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stores checker</title>
+    <script src="https://kit.fontawesome.com/d02c7b7f0b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+    <div id="main-wrapper">
+        <h1>stores checker</h1>
+        <div class="map-container">
+            <a class="fas fa-map-marker-alt fa-2x location" grad='kocani' style="top:236px; right: 480px"></a>
+            <a class="fas fa-map-marker-alt fa-2x location" grad='skopje' style="top:210px; right: 733px"></a>
+            <a class="fas fa-map-marker-alt fa-2x location" grad='gostivar' style="top:278px; right: 865px"></a>
+            <a class="fas fa-map-marker-alt fa-2x location" grad='stip' style="top:295px; right: 534px"></a>
+            <a class="fas fa-map-marker-alt fa-2x location" grad='prilep' style="top:430px; right: 700px"></a>
+            <a class="fas fa-map-marker-alt fa-2x location" grad='bitola' style="top:540px; right: 759px"></a>
+            <a class="fas fa-map-marker-alt fa-2x location" grad='ohrid' style="top:510px; right: 895px"></a>
+            <a class="fas fa-map-marker-alt fa-2x location" grad='struga' style="top:490px; right: 925px"></a>
+            <a class="fas fa-map-marker-alt fa-2x location" grad='gevgelija' style="top:500px; right: 456px"></a>
+            <form action="">
+                <label for="tech">Изберете вид на техника</label>
+                <select name="tech" id="tech">
+                    <optgroup label="Магацини" name='magacin'>
+                        <option value="bela-tehnika-magacin">Бела Техника</option>
+                        <option value="avto-delovi-magacin">Авто Делови</option>
+
+                        <option value="prikazi-se" selected="selected">Прикажи ги сите</option>
+                    </optgroup>
+                    <optgroup label="Салони" name='saloni'>
+                        <option value="b-texnika">Бела Техника</option>
+                        <option value="a-delovi">Авто Делови</option>
+                        <option value="g-shop">Гејм Шоп</option>
+                        <option value="prikazi-saloni" selected="selected">Show all continents</option>
+                    </optgroup>
+                </select>
+            </form>
+        </div>
+        <div class="gradovi-info">
+            <div class="skopje magacin">
+                <h3>Скопје</h3>
+                <p>ул: рандом ул: 32</p>
+                <p>тел: 070 xxx xxx</p>
+            </div>
+            <div class="bitola magacin">
+                <h3>Битола</h3>
+                <p>ул: рандом ул: 12</p>
+                <p>тел: 072 xxx xxx</p>
+            </div>
+            <div class="gevgelija magacin">
+                <h3>Гевгелија</h3>
+                <p>ул: рандом ул: 12</p>
+                <p>тел: 071 xxx xxx</p>
+            </div>
+            <div class="kocani magacin">
+                <h3>Кочани</h3>
+                <p>ул: рандом ул: 12</p>
+                <p>тел: 075 2xx xxx</p>
+            </div>
+            <div class="prilep salon">
+                <h3>Прилеп</h3>
+                <p>ул: рандом ул: 12</p>
+                <p>тел: 075 2xx xxx</p>
+            </div>
+            <div class="bitola salon">
+                <h3>Прилеп</h3>
+                <p>ул: рандом ул: 12</p>
+                <p>тел: 075 2xx xxx</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="/js/jquery-3.5.1.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
