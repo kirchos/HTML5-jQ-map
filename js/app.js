@@ -68,14 +68,28 @@ $().ready(function () {
                     magacin.prev().hide()
                     magacin.show()
                     magacin.next().hide()
-
-
+                } else {
+                    magacin.hide()
                 }
-
-
-
             })
 
+            $(salon).each(function () {
+                // $(this).hide()
+                // $(this).show()
+                // if (salon) {
+
+                //     magacin.hide()
+
+
+
+
+                //     // salon.hide()
+
+
+
+
+                // }
+            })
 
 
 
