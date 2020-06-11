@@ -81,16 +81,15 @@ $().ready(function () {
                     $('.gradovi-info div').hide();
                     const infoGrad = $(`<div><h3>${lokacija.toUpperCase()}</h3><p>${item.tip}</p><p>Адреса: ${item.adresa}</p><p>Telefon: ${item.telefon}</p></div>`);
                     $('.gradovi-info').append(infoGrad)
+
                 }
 
-                // console.log(grad)
+                $(this).toggleClass('aktivno');
+
 
             });
 
         })
-
-
-
 
     });
 
